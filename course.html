@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200;1,300&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>University Demo</title>
+    <link rel="stylesheet" href="edu.css">
+</head>
+<body>
+    <section class="sub-menu">
+        <header>
+            <nav>
+                <a href="index.html"><img src="/eduford_img/logo.png"></a>
+                <div class="navlink" id="navLink">
+                    <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li> 
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+           
+        </header>
+        <div class="name">
+            <h2>Our Courses</h2>
+            
+        </div>
+    </section>
+    
+    <section class="coursemain">
+        <h2>Courses We Offer</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course">
+                <h3>Undergraduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae illo quae dicta atque aperiam praesentium voluptate blanditiis a, dolor neque accusantium repudiandae numquam tenetur.</p>
+            </div>
+            <div class="course">
+                <h3>Graduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae illo quae dicta atque aperiam praesentium voluptate blanditiis a, dolor neque accusantium repudiandae numquam tenetur.</p>
+            </div>
+            <div class="course">
+                <h3>PHD</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae illo quae dicta atque aperiam praesentium voluptate blanditiis a, dolor neque accusantium repudiandae numquam tenetur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="coursemain">
+        <h2>Our Facilities</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+          
+              
+           <div class="fct">
+                    <img src="/eduford_img/library.png" alt="">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ex laboriosam! Facere facilis, voluptatibus.</p>
+            </div>
+            <div class="fct">
+                    <img src="/eduford_img/basketball.png" alt="">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ex laboriosam! Facere facilis, voluptatibus.</p>
+            </div>
+             <div class="fct">
+                    <img src="/eduford_img/cafeteria.png" alt="">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ex laboriosam! Facere facilis, voluptatibus.</p>
+            </div>
+            
+        </div>
+    </section>
+    
+
+   
+    <!-- --------footer------ -->
+    <section class="footer">
+        <h3>ABOUT US</h3>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quibusdam, dolores excepturi possimus eveniet <br> dolorum ipsum praesentium, facere animi ut neque soluta pariatur maiores deserunt illo ratione nihil id.</P>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter" ></i>
+            <i class="fab fa-instagram" ></i>
+            <i class="fab fa-youtube" ></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by Sohag Ahmed</p>
+         
+    </section>
+
+  
+    <!-- ---------javascrift toggle-------- -->
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu(){
+            navLink.style.right = "0";
+        }
+        function hideMenu(){
+            navLink.style.right = "-150px";
+        }
+
+
+    </script>
+</body>
+</html>

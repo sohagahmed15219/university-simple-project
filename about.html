@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200;1,300&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>University Demo</title>
+    <link rel="stylesheet" href="edu.css">
+</head>
+<body>
+    <section class="sub-menu">
+        <header>
+            <nav>
+                <a href="index.html"><img src="/eduford_img/logo.png"></a>
+                <div class="navlink" id="navLink">
+                    <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li> 
+                        <li><a href="course.html">Course</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+           
+        </header>
+        <div class="name">
+            <h2>About Us</h2>
+            
+        </div>
+    </section>
+    
+    <section class="coursemain">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus facilis ipsum cumque porro omnis maxime, dolores eum vel molestias fugiat velit quo doloremque! Rerum tenetur beatae earum sit similique eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quasi amet voluptatum iure eum cum quos ea debitis sint eius impedit iusto beatae asperiores soluta vero, quas cumque perspiciatis corporis.</p>
+                <a href="#" class="btn btn-x">Explore now</a>
+            </div>
+            <div class="about-col">
+                <img src="/eduford_img/about.jpg" >
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- --------footer------ -->
+    <section class="footer">
+        <h3>ABOUT US</h3>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quibusdam, dolores excepturi possimus eveniet <br> dolorum ipsum praesentium, facere animi ut neque soluta pariatur maiores deserunt illo ratione nihil id.</P>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter" ></i>
+            <i class="fab fa-instagram" ></i>
+            <i class="fab fa-youtube" ></i>
+        </div>
+        <p>Made with <i class="fas fa-heart"></i> by Sohag Ahmed</p>
+         
+    </section>
+
+  
+    <!-- ---------javascrift toggle-------- -->
+
+    <script>
+        var navLink = document.getElementById("navLink");
+        function showMenu(){
+            navLink.style.right = "0";
+        }
+        function hideMenu(){
+            navLink.style.right = "-150px";
+        }
+
+
+    </script>
+</body>
+</html>
